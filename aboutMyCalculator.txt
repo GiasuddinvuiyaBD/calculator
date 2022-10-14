@@ -1,0 +1,19 @@
+Asssalamu alaikum ,
+Today i have created a every simple calculator. 
+
+Now i would like to talk something about my project. At first i have taken a html file for creating markup of calculater then add some css for making it looks like good. After that i have written inline and internal javascirpt code.
+
+At first i have taken a funciton call calculate(x) inside the funciton i have resived a parameter x.
+
+In the html part i have taken a form element. Inside the form i have written all the button like 1,2,3,4,5,6,7,8,9 and cancel , =,+,-,/ and * so those button i have taken inside the form. 
+
+After that i have set onclick() javascirpt event. inside the event i have called the calculate() funciton. 
+
+In the equel button i have set a mathmetical operation call eval(). It work is when we need sumation,multiplication,division,addition and so many mathmetical operation it will complete and then it will return the curract result.
+
+
+
+
+
+
+
