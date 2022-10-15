@@ -22,42 +22,42 @@
 		<h2 id="unique">My simple calculator</h2>
 		
 		<form action="#" class="form">
-			<input type="text" id="calculatorInputBox" value="" name="display" placeholder="0">
+			<input type="text" id="calculatorInputBox" value="" name="display" placeholder="0" autocomplete="off">
 		<div class="line">
 			<input type="button" name="btn" id="allCancel" value="AC" onclick="display.value = null">
-			<input type="button" name="btn" id="oneCancel" value="CE" onclick="display.value = null">
+			<input type="button" name="btn" id="oneCancel" value="Muslim" onclick="display.value = null">
 			<input type="button" name="btn" id="modolus" value="%" onclick="calculate(this.value)">
 			<input type="button" name="btn" id="divide" value="/" onclick="calculate(this.value)">
 		</div>
 		<div class="line">
-			<input type="button" name="btn" id="seven" value="7"  onclick="calculate(this.value)">
-			<input type="button" name="btn" id="eight" value="8" onclick="calculate(this.value)">
-			<input type="button" name="btn" id="nine" value="9" onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="seven" value="7"  onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="eight" value="8" onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="nine" value="9" onclick="calculate(this.value)">
 			<input type="button" name="btn" id="ento" value="*" onclick="calculate(this.value)">
 		</div>
 		<div class="line">
-			<input type="button" name="btn" id="four" value="4" onclick="calculate(this.value)">
-			<input type="button" name="btn" id="five" value="5" onclick="calculate(this.value)">
-			<input type="button" name="btn" id="six" value="6" onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="four" value="4" onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="five" value="5" onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="six" value="6" onclick="calculate(this.value)">
 			<input type="button" name="btn" id="minise" value="-" onclick="calculate(this.value)">
 		</div>
 		<div class="line">
-			<input type="button" name="btn" id="one" value="1" onclick="calculate(this.value)">
-			<input type="button" name="btn" id="two" value="2" onclick="calculate(this.value)">
-			<input type="button" name="btn" id="three" value="3" onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="one" value="1" onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="two" value="2" onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="three" value="3" onclick="calculate(this.value)">
 			<!-- <input type="button" id="divide" value="-" autocomplete="off"> -->
 		</div>
 		<div class="test">
 			<input type="button" name="btn" id="plues" value="+" onclick="calculate(this.value)">
 		</div>
 		<div class="line">
-			<input type="button" name="btn" id="zero" value="0" onclick="calculate(this.value)">
-			<input type="button" name="btn" id="dot" value="." onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="zero" value="0" onclick="calculate(this.value)">
+			<input type="button" name="btn" class="number" id="dot" value="." onclick="calculate(this.value)">
 			<input type="button" name="btn" id="equel" value="=" onclick="display.value = eval(display.value)">
 		</div>
 		</form>
 		
 	</div>
-	<!-- <script src="js/script.js"></script> -->
+	<script src="js/script.js"></script>
 </body>
 </html>
